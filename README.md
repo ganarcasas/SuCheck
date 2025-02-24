@@ -10,6 +10,7 @@ A futurist root checker for Android
 
 - [Requirements](#requirements)
 - [Special Thanks](#special-thanks)
+- [Functions](#functions)
 - [Download](#download)
 - [Contribute](#contribute)
 - [License](#license)
@@ -24,6 +25,17 @@ A futurist root checker for Android
 
 - **APKTool M**: A big shout-out to APKTool M for allowing me to easily update the SDK, modify versions, and handle other essential tasks in the app development process. Their powerful toolkit made managing APKs and working with resources much more efficient.
 
+## Functions
+
+- [x] **Root Detection**: Identifies if the Android device is rooted.
+- [x] **Simple UI**: Easy-to-use interface designed for users of all levels.
+- [ ] **Advanced UI**: More advanced user interface.
+- [ ] **Detailed Root Information**: Provides detailed information about the rooting status.
+- [ ] **Safety Check**: Ensures the device is not vulnerable after rooting.
+- [ ] **Device Info**: Displays information about the device, including specs and root status.
+- [ ] **Root Tutorials and Guides**: A collection of tutorials and guides for users to safely root their devices.
+- [ ] **Settings**: Includes options like enabling dark mode and customizing the app's appearance.
+- [ ] **And more**: More ideas and features will be added as the app evolves.
 
 ## Download
 
@@ -38,4 +50,3 @@ Feel free to fork the project, create a branch, and submit a pull request for an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-

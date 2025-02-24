@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/checker_title"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#00FFFF"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="#0088FF"
+        android:shadowRadius="8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/checker_tapbutton"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="#00AA00"
+        android:shadowRadius="6"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checker_button"
+        android:textColor="#00FFFF"
+        android:fontFamily="monospace"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/black"
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+        android:outlineSpotShadowColor="#00FFFF"
+        android:outlineAmbientShadowColor="#00FFFF"
+        android:shadowColor="#00FFFF"
+        android:shadowRadius="10"
+        android:strokeWidth="2"
+        android:strokeColor="#00FFFF"
+        app:layout_constraintTop_toBottomOf="@+id/statusTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

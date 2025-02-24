@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">SuCheck</string>
+    <string name="version">Dürüm (1.0)</string>
+    <string name="by">Created by Ganarcasas Apps</string>
+	<string name="checker_title">Root Checker</string>
+	<string name="checker_tapbutton">Tap the button to check root</string>
+	<string name="checking">Checking Root...</string>
+	<string name="not_rooted">Oops! Your device is not rooted :(</string>
+	<string name="rooted">Yey! Your device is rooted :)</string>
+	<string name="checker_button">Check Root</string>
+
+</resources>
